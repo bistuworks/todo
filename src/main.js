@@ -11,6 +11,6 @@ Vue.use(ElementUI)
 
 new Vue({
   render: h => h(App),
-  router,
-  store,
+  router,  // 将Vue-Router注入全局Vue实例
+  store,   // 将Vuex注入全局Vue实例
 }).$mount('#app')
